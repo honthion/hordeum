@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka-server', version: '1.4.7.RELEASE'
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies
